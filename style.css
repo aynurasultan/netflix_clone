@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.seperation {
+  border: 3px solid rgb(54, 54, 54);
+}
+/*  main */
+.main {
+  background-image: url(images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center;
+  background-size: max(1200px, 100vw);
+  height: 644px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main .box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  height: 644px;
+  opacity: 0.5;
+}
+
+.main .hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0 30px;
+  height: calc(100%-100px);
+  color: white;
+}
+
+.main .hero h1 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.main .hero .hero-first {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main .hero .hero-second {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero .hero-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero .hero-buttons button {
+  padding: 8px 24px;
+  font-size: 20px;
+}
+
+.hero .hero-buttons input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  outline: none;
+  background-color: rgba(23, 23, 23, 0.7);
+  border-radius: 4px;
+  color: white;
+}
+
+/*  header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60vw;
+  margin: auto;
+  height: 100px;
+}
+
+.header img {
+  width: 130px;
+}
+.header .buttons {
+  z-index: 10;
+}
+
+.header .logo {
+  z-index: 10;
+}
+.btn {
+  padding: 3px 8px;
+  background-color: rgba(248, 243, 243, 0.02);
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.btn-red {
+  background-color: red;
+}
+
+/*  filimler */
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+.first .secImg {
+  position: relative;
+}
+
+.first .secImg img {
+  position: relative;
+  width: 555px;
+  z-index: 10;
+}
+
+.first .secImg video {
+  position: absolute;
+  right: 70px;
+  top: 80px;
+}
+
+.first .left h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.first .left p {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.faq {
+  padding: 35px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq .faqbox {
+  background-color: #272727;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 34px auto;
+  max-width: 60vw;
+  transition: all 0.5s;
+}
+
+.faq .faqbox:hover {
+  background-color: rgb(23, 23, 23);
+ 
+}
+
+/* Responsiv tasarim*/
+
+@media (max-width: 1500px) {
+  .first {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .first .left {
+    margin-left: 30px;
+  }
+}
+
+.footer {
+  max-width: 60vw;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.footer .questions {
+  padding: 34px 0;
+  font-size: 25px;
+}
+.footer .footer-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer .footer-list .footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer-list .footer-item a {
+  color: white;
+  font-size: 20px;
+}

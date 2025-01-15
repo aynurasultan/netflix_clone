@@ -20,4 +20,5 @@ CSS: For styling and layout
 ![][def]
 
 [def]: netflix.gif
-# netflix-clone
+
+# netflix_clone

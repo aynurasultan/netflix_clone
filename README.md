@@ -1,5 +1,5 @@
-<h1>Project Title</h1>
-Netflix Clone
+<h1>Netflix Clone</h1>
+This is a Netflix Clone built using HTML and CSS. 
 
 <h2>Project Description</h2>
 This project is a clone of Netflix's homepage, built using HTML and CSS. It replicates the user interface to showcase basic web development and design skills.
